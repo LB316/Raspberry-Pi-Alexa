@@ -1,17 +1,24 @@
 {
-  "intents": [
-    {
-      "slots": [
-        {
-          "name": "status",
-          "type": "GPIO_CONTROL"
+
+    "intents": [{
+
+        "intent": "GPIOControlIntent",
+
+        "slots": [{
+
+            "name": "status",
+
+            "type": "GPIO_CONTROL"
+
         },
-        {
-          "name": "location",
-          "type": "LOCATION"
-        }
-      ],
-      "intent": "LocationControlIntent"
-    }
-  ]
+                  {
+
+            "name": "pin",
+
+            "type": "AMAZON.NUMBER"
+
+        }]
+
+    }]
+
 }
