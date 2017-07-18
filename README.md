@@ -30,11 +30,13 @@ I used "raspberry pi" as my invoction name.
 
 8.) Copy and paste interaction schema and invoction from repo
 
-9.) Go to Configuration and select HTTPS
+9.) Add custom slot GPIO_CONTROL with variables on and off
 
-10.) Copy the HTTPS address from the NGrok terminal.
+10.) Go to Configuration and select HTTPS
 
-11.) For certification you should select the second option that says:
+11.) Copy the HTTPS address from the NGrok terminal.
+
+12.) For certification you should select the second option that says:
 My development endpoint is a sub-domain of a domain that has a wildcard certificate from a certificate authority
 
-12.) Finally you can test the pins on the last page
+13.) Finally you can test the pins on the last page
